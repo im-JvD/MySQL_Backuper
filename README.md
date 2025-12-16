@@ -57,5 +57,3 @@ _____
 ```
 php /home/$HOSTPATH/public_html/backup/src/auto_backuper.php
 ```
-_____
-‌
