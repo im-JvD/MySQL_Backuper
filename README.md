@@ -22,7 +22,7 @@
   **کرون جاب اول :** ایجاد دیتابیس در هاست
 #### ScreenShot
 <p align="left">
-  <img src="https://github.com/im-JvD/MirzaBOT-hostBackuper/blob/main/CronJob-1.png" width="460px" />
+  <img src="https://github.com/im-JvD/MySQL_Backuper/blob/main/CronJob-1.png" width="460px" />
 </p>
 اگر طبق تصویر بالا کرون جابتون رو تنظیم کنید ، دقایق 29 و 59 هر ساعت ، از دیتابیس میزرابات بکاپ میگیره
 
@@ -34,7 +34,7 @@ mysqldump --single-transaction --quick -u $DB_USERNAME -p$DB_PASSWORD $DB_NAME >
   **کرون جاب دوم :** ارسال فایل فشرده‌سازی شده در تلگرام
 #### ScreenShot
 <p align="left">
-  <img src="https://github.com/im-JvD/MirzaBOT-hostBackuper/blob/main/CronJob-2.png" width="460px" />
+  <img src="https://github.com/im-JvD/MySQL_Backuper/blob/main/CronJob-2.png" width="460px" />
 </p>
 اگر طبق تصویر بالا کرون جابتون رو تنظیم کنید ، دقایق 00 و 30 هر ساعت ، از دیتابیس میزرابات بکاپ میگیره
 
