@@ -3,14 +3,14 @@
 /* ================== CONFIG ================== */
 
 // ✅ تلگرام
-$botToken = "BOT_TOKEN";
-$chatId   = "ADMIN_CHATID";
+$botToken = "$BOT_TOKEN";
+$chatId   = "$ADMIN_CHATID";
 
 // ✅ دایرکتوری که میخواهید از آن بکاپ بگیرید
-$sourceDir = "/home/HOSTPATH/public_html/backup";
+$sourceDir = "/home/$HOSTPATH/public_html/backup";
 
 // ✅ محل ذخیره بکاپ
-$backupDir = "/home/HOSTPATH/public_html";
+$backupDir = "/home/$HOSTPATH/public_html";
 
 // ✅ تعداد بکاپ هایی که نگه داشته می شوند
 $maxBackups = 1;
@@ -88,3 +88,4 @@ $response = curl_exec($ch);
 curl_close($ch);
 
 /* ================== DONE ================== */
+
